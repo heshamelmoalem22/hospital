@@ -1,0 +1,244 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* start nav section */
+nav{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: hsl(0deg 0% 12.94%);
+    color: #fff;
+    
+}
+nav a{
+    font-size: 32px;
+    margin-left: 22px;
+    letter-spacing: 2px;
+    /* font-weight: -84px; */
+    font-family: monospace;
+}
+.nav-right a{
+    text-decoration: none;
+    color: #fff;
+}
+.nav-right a:nth-of-type(1):hover{
+    text-decoration:underline;
+}
+.nav-right a:nth-of-type(2):hover{
+    text-decoration:underline;
+}
+.nav-right a:nth-of-type(3):hover{
+    text-decoration:underline;
+}
+.nav-right a:nth-of-type(4):hover{
+    text-decoration:underline;
+}
+.nav-right a:nth-of-type(5):hover{
+    text-decoration:underline;
+}
+.nav-right a:nth-of-type(6):hover{
+    text-decoration:underline;
+}
+/* start nav section */
+
+/* start header section  */
+header{
+    height: 600px;
+    background-image: linear-gradient(to right,transparent,#00000069), url(back.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header h2{
+    margin-bottom: 10px;
+    font-size: 34px;
+    font-family: monospace;
+    color: #fff;
+    letter-spacing: 3px;
+}
+header p{
+    margin-top: 13px;
+    font-size: small;
+    font-size: 23px;
+    color: #fff;
+    font-weight: 76px;
+    letter-spacing: 3px;
+}
+header .buttons{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 39px;
+    
+}
+header button{
+    padding: 10px 48px;
+    display: flex;
+    margin-left: 15px;
+    width: 172px;
+    height: 51px;
+    text-align: 7;
+    border: none;
+    border-radius: 4px;
+    font-size: 25px;
+    font-family: monospace;
+    background-color: hsl(328.75deg 76.19% 24.71%);
+    color: #fff;
+}
+header button:nth-of-type(2){
+    background-color: hsl(165.29deg 53.68% 37.25%) !important;
+}
+/* end header section  */
+
+/* start section-1  */
+.section-1 h3{
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 35px;
+    font-family: monospace;
+    letter-spacing: 2px;
+    
+}
+.section-1  hr{
+    width: 200px;
+    background-color: red;
+    height: 4px;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 19px;
+}
+.section-1 .first-child{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 57px;
+}
+.section-1 .first-child img{
+    width: 40%;
+}
+.section-1 .first-child h2{
+    width: 40%;
+    margin-top: 105px;
+    font-family: monospace;
+    font-size: 26px;
+    
+}
+/* end section-1  */
+
+/* start section-2  */
+.section-2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f5e4e4;
+    padding-top: 30px;
+    margin-top: 20px;
+    
+}
+.section-2 img{
+    width: 823px;
+    height: 474px;
+    display: block;
+    margin: auto;
+}
+.section-2 .section-2childs{
+    border: 2px solid #ccc;
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color: #fff;
+    margin-bottom: 30px;
+    width: 928px;
+    height: 501px;
+    
+}
+.section-2 h2{
+    text-align: center;
+    font-size: 25px;
+    font-family: monospace;
+}
+/* end section-2  */
+
+/* start section-3  */
+.section-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(5.gif);
+    height: 350px;
+    margin-top: 20px;
+}
+.section-3 h2{
+    font-size: 40px;
+    color: #fff;
+    font-family: monospace;
+    margin-bottom: 20px; 
+}
+.section-3 input{
+    width: 90%;
+    border-radius: 4px;
+    border: none;
+    padding: 10px 8px;
+    margin-bottom: 13px;
+    height: 30px;
+    text-indent: 18px;
+    font-size: 26px;
+}
+.section-3 button{
+    padding: 10px 30px;
+    font-size: 18px;
+    background-color: #3949a3;
+    color: #fff;
+    border: none;
+    border-radius: 1px;
+    margin-bottom: 5px;
+    margin-top: -13px;
+}
+/* end section-3  */
+
+/* start section-4  */
+.section-4{
+    background-image: url(7.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.section-4 h3{
+    font-size: 40px;
+    color: #fff;
+    font-family: monospace;
+    margin-bottom: 20px; 
+}
+.section-4 input{
+    width: 90%;
+    border-radius: 4px;
+    border: none;
+    padding: 10px 8px;
+    margin-bottom: 13px;
+    height: 30px;
+    text-indent: 16px;
+    font-size: 28px;
+}
+.section-4 button{
+    padding: 10px 30px;
+    font-size: 18px;
+    background-color: #3949a3;
+    color: #fff;
+    border:none;
+    border-radius: 1px;
+}
+/* end section-4  */
